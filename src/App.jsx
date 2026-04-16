@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const USERS = [
-  { id: "master1", username: "koordinator.dila", password: "dila2026", role: "master", nama: "Dr. drh. Made Bagus Auriva Mataram, M.Sc", lab: null },
-  { id: "koord_pa", username: "koord.pa", password: "pa2026", role: "koord_lab", nama: "Dr. drh. Ricadonna Raissa, M.Si", lab: "Patologi Anatomi" },
-  { id: "koord_mv", username: "koord.mv", password: "mv2026", role: "koord_lab", nama: "drh. Ahmad Fauzi, M.Sc., Ph.D", lab: "Mikrobiologi" },
-  { id: "koord_pv", username: "koord.pv", password: "pv2026", role: "koord_lab", nama: "drh. Ajeng Erika, M.Si", lab: "Parasitologi" },
-  { id: "koord_pk", username: "koord.pk", password: "pk2026", role: "koord_lab", nama: "Dr. drh. Handayu Untari", lab: "Patologi Klinik" },
+  { id: "master1", username: "koordinator.dila", password: "dila2026", role: "master", nama: "Dr. drh. Albiruni Haryo, M.Sc, Ap.Vet", lab: null },
+  { id: "koord_pa", username: "koord.pa", password: "pa2026", role: "koord_lab", nama: "Dr. drh. Albiruni Haryo, M.Sc, AP.Vet", lab: "Patologi Anatomi" },
+  { id: "koord_mv", username: "koord.mv", password: "mv2026", role: "koord_lab", nama: "Dr.drh. Fidi Nur Aini E.P.D, M.Si.", lab: "Mikrobiologi" },
+  { id: "koord_pv", username: "koord.pv", password: "pv2026", role: "koord_lab", nama: "drh. Reza Jesica, M.Sc", lab: "Parasitologi" },
+  { id: "koord_pk", username: "koord.pk", password: "pk2026", role: "koord_lab", nama: "Dr. drh. Made Auriva Mataram, M.Sc", lab: "Patologi Klinik" },
   { id: "akademik1", username: "akademik.ppdh", password: "akd2026", role: "akademik", nama: "Staff Akademik PPDH", lab: null },
   ...Array.from({ length: 16 }, (_, i) => ({
     id: `mhs${i + 1}`,
